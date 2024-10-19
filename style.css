@@ -20,6 +20,11 @@ body {
   perspective: 1000px;
   padding: 50px 0px;
 }
+.hidden-player {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
 
 .night {
   position: fixed;
