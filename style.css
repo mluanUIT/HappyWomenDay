@@ -20,11 +20,6 @@ body {
   perspective: 1000px;
   padding: 50px 0px;
 }
-.hidden-player {
-  width: 0;
-  height: 0;
-  visibility: hidden;
-}
 
 .night {
   position: fixed;
@@ -42,6 +37,12 @@ body {
   position: fixed;
   top: 80px;
   text-align: center;
+  font-family: "Playwrite GB S", cursive;
+}
+.hidden-player {
+  width: 0;
+  height: 0;
+  visibility: hidden;
 }
 
 .flowers {
